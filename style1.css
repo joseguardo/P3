@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiller&display=swap');
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Chiller', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 20%;
+}
+
+#jugar {
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+#jugar:hover {
+    color: red;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}

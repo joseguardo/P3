@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Piedra, Papel o 99 Cosas Más</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" ></script>
+</head>
+<body>
+<a class="home-link" href="inicio.html">Inicio</a>
+<div class="container">
+  <h1>Piedra, Papel o 99 Cosas Más</h1>
+  <div class="options">
+    <button class="btn btn-primary" onclick="play('Rock')"><i class="fas fa-hand-rock"></i> Piedra</button>
+    <button class="btn btn-primary" onclick="play('Paper')"><i class="fas fa-hand-paper"></i> Papel</button>
+    <button class="btn btn-primary" onclick="play('Scissors')"><i class="fas fa-hand-scissors"></i> Tijeras</button>
+    <button class="btn btn-primary" onclick="play('Dynamite')"><i class="fas fa-bomb"></i> Dinamita</button>
+    <button class="btn btn-primary" onclick="play('Tornado')"><i class="fas fa-poo-storm"></i> Tornado</button>
+    <button class="btn btn-primary" onclick="play('Nuke')"><i class="fas fa-radiation"></i> Nuke</button>
+    <button class="btn btn-primary" onclick="play('Monkey')"><i class="fas fa-dragon"></i> Dragon</button>
+    <button class="btn btn-primary" onclick="play('Tank')"><i class="fas fa-hand-sparkles"></i> Tanque</button>
+    <!-- Agrega botones para las nuevas opciones aquí -->
+    <button class="btn btn-primary" onclick="play('Air')"><i class="fas fa-wind"></i> Aire</button>
+    <button class="btn btn-primary" onclick="play('Airplane')"><i class="fas fa-plane"></i> Avión</button>
+    <button class="btn btn-primary" onclick="play('Alien')"><i class="fas fa-robot"></i> Extraterrestre</button>
+    <button class="btn btn-primary" onclick="play('Axe')"><i class="fas fa-hammer"></i> Martillo</button>
+    <button class="btn btn-primary" onclick="play('Baby')"><i class="fas fa-baby"></i> Bebé</button>
+    <button class="btn btn-primary" onclick="play('Beer')"><i class="fas fa-beer"></i> Cerveza</button>
+    <button class="btn btn-primary" onclick="play('Bicycle')"><i class="fas fa-bicycle"></i> Bicicleta</button>
+    <button class="btn btn-primary" onclick="play('Bird')"><i class="fas fa-dove"></i> Pájaro</button>
+    <button class="btn btn-primary" onclick="play('Blood')"><i class="fas fa-tint"></i> Sangre</button>
+    <button class="btn btn-primary" onclick="play('Book')"><i class="fas fa-book"></i> Libro</button>
+    <button class="btn btn-primary" onclick="play('Bowl')"><i class="fas fa-mug-hot"></i> Tazón</button>
+    <button class="btn btn-primary" onclick="play('Brain')"><i class="fas fa-brain"></i> Cerebro</button>
+    <button class="btn btn-primary" onclick="play('Butter')"><i class="fas fa-cheese"></i> Mantequilla</button>
+    <button class="btn btn-primary" onclick="play('Cage')"><i class="fas fa-box"></i> Jaula</button>
+    <button class="btn btn-primary" onclick="play('Camera')"><i class="fas fa-camera"></i> Cámara</button>
+    <button class="btn btn-primary" onclick="play('Car')"><i class="fas fa-car"></i> Coche</button>
+    
+  </div>
+  <div class="result" id="result"></div>
+
+  <table id="counter-table">
+    <tr>
+        <td>Ganadas:</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>Perdidas:</td>
+        <td>0</td>
+    </tr>
+  </table>
+  
+  <button id="reset-button">Resetear Contadores</button>
+
+</div>
+
+
+</body>
+</html>

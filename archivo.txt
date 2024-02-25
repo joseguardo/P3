@@ -1,0 +1,24 @@
+<button class="btn btn-primary" onclick="play('paper')"><i class="fas fa-hand-paper"></i> Papel</button>
+    <button class="btn btn-primary" onclick="play('scissors')"><i class="fas fa-hand-scissors"></i> Tijeras</button>
+    <button class="btn btn-primary" onclick="play('dynamite')"><i class="fas fa-bomb"></i> Dinamita</button>
+    <button class="btn btn-primary" onclick="play('tornado')"><i class="fas fa-poo-storm"></i> Tornado</button>
+    <button class="btn btn-primary" onclick="play('nuke')"><i class="fas fa-radiation"></i> Nuke</button>
+    <button class="btn btn-primary" onclick="play('monkey')"><i class="fas fa-optin-monster"></i> Monkey</button>
+    <button class="btn btn-primary" onclick="play('tank')"><i class="fas fa-hand-sparkles"></i> Tanque</button>
+    <!-- Agrega botones para las nuevas opciones aquí -->
+    <button class="btn btn-primary" onclick="play('air')"><i class="fas fa-wind"></i> Aire</button>
+    <button class="btn btn-primary" onclick="play('airplane')"><i class="fas fa-plane"></i> Avión</button>
+    <button class="btn btn-primary" onclick="play('alien')"><i class="fas fa-robot"></i> Extraterrestre</button>
+    <button class="btn btn-primary" onclick="play('axe')"><i class="fas fa-axe"></i> Hacha</button>
+    <button class="btn btn-primary" onclick="play('baby')"><i class="fas fa-baby"></i> Bebé</button>
+    <button class="btn btn-primary" onclick="play('beer')"><i class="fas fa-beer"></i> Cerveza</button>
+    <button class="btn btn-primary" onclick="play('bicycle')"><i class="fas fa-bicycle"></i> Bicicleta</button>
+    <button class="btn btn-primary" onclick="play('bird')"><i class="fas fa-dove"></i> Pájaro</button>
+    <button class="btn btn-primary" onclick="play('blood')"><i class="fas fa-tint"></i> Sangre</button>
+    <button class="btn btn-primary" onclick="play('book')"><i class="fas fa-book"></i> Libro</button>
+    <button class="btn btn-primary" onclick="play('bowl')"><i class="fas fa-bowl"></i> Tazón</button>
+    <button class="btn btn-primary" onclick="play('brain')"><i class="fas fa-brain"></i> Cerebro</button>
+    <button class="btn btn-primary" onclick="play('butter')"><i class="fas fa-cheese"></i> Mantequilla</button>
+    <button class="btn btn-primary" onclick="play('cage')"><i class="fas fa-box"></i> Jaula</button>
+    <button class="btn btn-primary" onclick="play('camera')"><i class="fas fa-camera"></i> Cámara</button>
+    <button class="btn btn-primary" onclick="play('car')"><i class="fas fa-car"></i> Coche</button>

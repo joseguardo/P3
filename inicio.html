@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style1.css">
+<title>Inicio</title> 
+</head>
+<body>
+    <h1 id="titulo">¿TE ATREVES A JUGAR?</h1>
+    <div id="jugar" onclick="window.location.href='index.html'">Jugar</div>
+    <script>
+        function parpadearTitulo() {
+            const titulo = document.getElementById("titulo");
+            titulo.style.visibility = (titulo.style.visibility == "hidden") ? "visible" : "hidden";
+        }
+        
+        function generarIntervalo() {
+            retardo = (2000 + Math.floor(Math.random() * 8000));
+        return retardo; // Intervalo aleatorio entre 2 y 10 segundos
+        }
+
+
+        function iniciarParpadeo() {
+            parpadearTitulo();
+            setInterval(parpadearTitulo, 500); // Parpadeo cada medio segundo
+            setInterval(function() {
+                clearInterval(retardo);
+                iniciarParpadeo();
+            },
+             generarIntervalo()); // Intervalo aleatorio entre parpadeos
+        }
+
+        iniciarParpadeo();
+    </script>
+</body>
+</html>
